@@ -1,13 +1,31 @@
-* xref:index.adoc[Home]
+* 1. 요구 사항
+** xref:installation.adoc[설치]
+*** xref:installation.adoc#tutorial-all-local[CLI]
+*** xref:installation.adoc#start-kubernetes[환경 확인하기]
 
-* xref:01-overview.adoc[Workshop overview]
+* 2. 입문
+** xref:kubectl.adoc[kubectl]
+** xref:pod-rs-deployment.adoc[Pod, ReplicaSet, Deployment]
+** xref:service.adoc[Service]
+** xref:logs.adoc[로그]
+** xref:service-magic.adoc[Service의 마법]
+** xref:blue-green.adoc[Blue/Green 배포]
 
-* xref:02-details.adoc[Workshop details]
+* 3. 초급
+** xref:building-images.adoc[이미지 빌드하기]
+** xref:resources.adoc[리소스와 제한]
+** xref:rolling-updates.adoc[롤링 업데이트]
+** xref:live-ready.adoc[Liveness, Readiness & Startup]
+** xref:configmap.adoc[ConfigMap]
 
-* xref:03-module-01-developer-experience.adoc[Module 1: The developer experience]
-** xref:03-module-01-developer-experience.adoc#section-1[Section 1: Meet the platform]
-** xref:03-module-01-developer-experience.adoc#section-2[Section 2: Your mission]
-** xref:03-module-01-developer-experience.adoc#section-3[Section 3: Build the feature]
-** xref:03-module-01-developer-experience.adoc#section-4[Section 4: Ship it]
-** xref:03-module-01-developer-experience.adoc#section-5[Section 5: Call in the AI]
-** xref:03-module-01-developer-experience.adoc#section-6[Section 6: Go live]
+* 4. 중급
+** xref:secrets.adoc[Secret]
+** xref:crds.adoc[Operator]
+** xref:volumes-persistentvolumes.adoc[Volume]
+** xref:taints-affinity.adoc[Taint & Affinity]
+** xref::jobs-cronjobs.adoc[Job & CronJob]
+** xref::daemonset.adoc[DaemonSet]
+** xref::statefulset.adoc[StatefulSet]
+
+* 5. 고급
+** xref:ingress.adoc[Ingress]-
