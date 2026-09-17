@@ -1,9 +1,9 @@
 name: modules
-title: OpenShift Dev Day
+title: Kubernetes tutorial
 version: ~
 nav:
   - modules/ROOT/nav.adoc
-
+start_page: ROOT:index.adoc
 asciidoc:
   attributes:
     experimental: true
